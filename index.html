@@ -32,6 +32,199 @@
     min-height: 100vh;
   }
 
+  /* Mobile Responsive Design */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    
+    .invitation-wrapper {
+      max-width: 100%;
+      margin: 0;
+      border-radius: 0;
+    }
+    
+    .outer-border {
+      margin: 10px;
+      border: 3px solid var(--gold);
+      border-radius: 6px;
+    }
+    
+    .inner-border {
+      margin: 8px;
+      padding: 0 0 50px;
+    }
+    
+    .corner {
+      width: 50px;
+      height: 50px;
+    }
+    
+    .top-band {
+      padding: 12px 16px;
+    }
+    
+    .top-band-text {
+      font-size: 0.55rem;
+      letter-spacing: 0.2em;
+    }
+    
+    .leaf-arch {
+      height: 80px;
+      margin-top: -5px;
+    }
+    
+    /* SVG adjustments for mobile */
+    .leaf-arch svg {
+      transform: scale(0.8);
+      transform-origin: center;
+    }
+    
+    .divine-names-section {
+      padding: 3px 20px 8px;
+    }
+    
+    .om-symbol {
+      font-size: 1.8rem;
+    }
+    
+    .divine-name {
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+    }
+    
+    .festival-title-section {
+      padding: 6px 15px 4px;
+    }
+    
+    .title-label {
+      font-size: 0.6rem;
+      letter-spacing: 0.3em;
+    }
+    
+    .festival-title {
+      font-size: 1.4rem;
+    }
+    
+    .festival-subtitle {
+      font-size: 0.85rem;
+    }
+    
+    .dates-section {
+      padding: 8px 20px;
+      gap: 15px;
+    }
+    
+    .date-card {
+      min-width: 140px;
+      max-width: 180px;
+      padding: 12px 10px;
+    }
+    
+    .date-day {
+      font-size: 0.6rem;
+    }
+    
+    .date-num {
+      font-size: 1.6rem;
+    }
+    
+    .date-month {
+      font-size: 0.95rem;
+    }
+    
+    .place-section {
+      padding: 10px 30px;
+    }
+    
+    .place-label {
+      font-size: 0.5rem;
+    }
+    
+    .place-name {
+      font-size: 1.3rem;
+    }
+    
+    .message-section {
+      padding: 8px 30px 6px;
+    }
+    
+    .message-text {
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+    
+    .bottom-band {
+      padding: 14px 20px;
+    }
+    
+    .bottom-band-text {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .outer-border {
+      margin: 5px;
+      border: 2px solid var(--gold);
+    }
+    
+    .inner-border {
+      margin: 5px;
+      padding: 0 0 40px;
+    }
+    
+    .corner {
+      width: 40px;
+      height: 40px;
+    }
+    
+    .top-band {
+      padding: 10px 12px;
+    }
+    
+    .top-band-text {
+      font-size: 0.45rem;
+      letter-spacing: 0.15em;
+    }
+    
+    .leaf-arch {
+      height: 60px;
+    }
+    
+    /* More aggressive SVG scaling for small screens */
+    .leaf-arch svg {
+      transform: scale(0.6);
+    }
+    
+    .festival-title {
+      font-size: 1.2rem;
+    }
+    
+    .dates-section {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    
+    .date-card {
+      width: 100%;
+      max-width: 280px;
+    }
+    
+    .message-text {
+      font-size: 0.85rem;
+    }
+    
+    .bottom-band {
+      padding: 12px 16px;
+    }
+    
+    .bottom-band-text {
+      font-size: 0.75rem;
+    }
+  }
+
   .invitation-wrapper {
     width: 100%;
     max-width: 780px;
